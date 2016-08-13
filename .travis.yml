@@ -3,7 +3,7 @@ node_js:
   - node
   - "5.12"
   - "4.4"
-  - "0.12"
+  # - "0.12"
 addons:
   code_climate:
     repo_token: c847dfc69d1d803941388efc43666a297f640a76d67b87084bdb08a6eafb5cc6

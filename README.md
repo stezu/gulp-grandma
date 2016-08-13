@@ -11,7 +11,7 @@
 [5]: https://codeclimate.com/github/stezu/gulp-grandma/badges/coverage.svg
 [6]: https://codeclimate.com/github/stezu/gulp-grandma/coverage
 
-A thin gulp wrapper around the [grandma](https://www.npmjs.com/package/grandma) api.
+A thin gulp wrapper around the [grandma](https://www.npmjs.com/package/grandma) stress testing framework.
 
 ## Install
 
