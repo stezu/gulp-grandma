@@ -1,0 +1,52 @@
+{
+  "name": "gulp-grandma",
+  "version": "0.0.1",
+  "description": "A gulp plugin for running the grandma stress testing framework.",
+  "main": "lib/gulp-grandma.js",
+  "scripts": {
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stezu/gulp-grandma.git"
+  },
+  "keywords": [
+    "streams",
+    "wait",
+    "forEach",
+    "util"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/"
+  ],
+  "author": "Stephen Zuniga <hello@stephenzuniga.com> (http://stephenzuniga.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stezu/gulp-grandma/issues"
+  },
+  "homepage": "https://github.com/stezu/gulp-grandma#readme",
+  "devDependencies": {
+    "beeper": "^1.1.0",
+    "chai": "^3.5.0",
+    "codeclimate-test-reporter": "^0.3.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-if": "^2.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-sequence": "^0.4.5"
+  },
+  "dependencies": {
+    "grandma": "^0.4.1",
+    "gulp-util": "^3.0.7",
+    "lodash": "^4.15.0",
+    "through2": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=0.12"
+  }
+}
