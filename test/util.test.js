@@ -187,10 +187,12 @@ describe('[gulp-grandma-util]', function() {
         done();
       });
 
-      process.nextTick(errorHandler, null, {
-        breakdown: {
-          successes: 150
-        }
+      process.nextTick(function() {
+        errorHandler(null, {
+          breakdown: {
+            successes: 150
+          }
+        });
       });
     });
 
