@@ -6,4 +6,4 @@ rules:
   max-statements: "off"
   max-nested-callbacks:
     - "error"
-    - 4
+    - 7
