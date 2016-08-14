@@ -1,6 +1,6 @@
 {
   "name": "gulp-grandma",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A gulp plugin for running the grandma stress testing framework.",
   "main": "lib/gulp-grandma.js",
   "scripts": {
