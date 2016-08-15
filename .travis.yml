@@ -1,9 +1,9 @@
 language: node_js
 node_js:
   - node
-  - "5.12"
-  - "4.4"
-  - "0.12"
+  - "5"
+  - "4"
+  - "0"
 addons:
   code_climate:
     repo_token: c847dfc69d1d803941388efc43666a297f640a76d67b87084bdb08a6eafb5cc6
@@ -16,7 +16,7 @@ deploy:
   provider: npm
   email: hello@stephenzuniga.com
   api_key:
-    secure: CfVAXnQmh7VZzzsezz3OINHC+qfMhHENuyOVWcwqZXuswl6U2U16xYcpls/GmX+9OxPgGGa5JSHYvkdYejWsVxsvU0K89sQLLTm3+FpFYxvMKhaw8Ak481UwLCRq5JlHG7r1EK4chNSKFLpYaBCGPLKHg24TC/3qUYSUx+2rwwyUytuZ15Sxd8/LK2NKdzQLVFlQnhCkZikZtyUIPcRfBNRWb0byrJEYCYUZcJqKb34UTAS4Uymwj9Vno09YBF3j3p43xd5Tsi23aiqNecmO5zpmqC3ONAXCIyin2hXTAbZ3vmAn+6XyZms2Z7end5mpRk88XaLteCzOQOU9uFJRmqult56uHxpQo8XAmsmTIFYZMaeavXT2F2H3fVyfSxNreoZvlajNEUFqE8G2icA3t0oLkUCiUVzcXy2Ow7ArHQcyMfOT94/4hsEWLrG7R3nxojXfqkTbr16uewmP+S9gMnnoaRSfagheiKMypqYatPB8ZkNblMOPbG4epN+H+hbhkWGl39+cf7TanbgeFbmRs0WE/YxU8NaQVYE3SbqEot9gXIbdrinclk9hFdA5b1/pduCIbpPWreqaZkvjmtNi0M/XTER7n5FFX8JjTIKZK9CDYevPRjVLcbS9v7UkysvqMBu1XSX2iH3wJBGJBNZ0Rdu2A1M8HdoZh+ACHIFVdoQ=
+    secure: Ok0rW/4xI4D2oe7rAlfo3nEqGulDK9eqj9ytKdKDEy0KHLoU13b91rS7KXBvQCsM+lh4JQaErE6WaFRFROzV4UJiwz3BIPz3Aaarz3zbFs50nY05Vrsn9lNFay7yW1ti/7lccem1gxzpA3DPuFGGJyQRc0GPmKl2VY/oASQ36gxxN7b0Mp2rTEYOvveo6cg2rorKxC6Tr9dEa5WhcrThh5raX86gWRxIF7XFeCN89Lj8V1hpxi8Msf+peo4X+PJmMbncnknNiGXsi4QKBBxWH1e4KPp4pVrgTxIpb/14m3/FH36pNffgoE3Bul5yt3BgSfacINRLiFTiKyOD1MaLX91y4rcaIQu54TGkdcdH9euIBkS3BXTxfYAEORRuQh52CsZsHhjo38tMQqZBEKDjyE+ypxIUMIc/wVenwN6u04o53O6fxqwlSwob8w2N1gHxdp/PGYxorVqDeqsuuiJmDJ3dNHj7o36CQTCFTjNcPpAFCSldrLoTVFNgGfNgAWCxmxEEI95dbEnnlSozhX7LaR/PbIS0s24Q7Jvu6fOi1dlPb7dzf0zXsEOT6Ng9i5jOzXPE23GbHmceYR55QMxn2ZP2U/ZrlqfICMYh/y/3xkXhS2B3BD2+6i6n+xRDQhXQxKQ8gX1SQC60W/TXncgxoF+toT9xxgsYuagmgmHuEGY=
   on:
     tags: true
     repo: stezu/gulp-grandma
