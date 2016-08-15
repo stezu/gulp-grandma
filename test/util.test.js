@@ -14,6 +14,7 @@ describe('[gulp-grandma-util]', function() {
   it('has tests for all methods', function() {
     var keys = [
       'grandmaError',
+      'validateOptions',
       'runOnFile',
       'reportOnFile',
       'reportErrors'
@@ -48,6 +49,21 @@ describe('[gulp-grandma-util]', function() {
         .and.to.equal('gulp-grandma');
       expect(error).to.have.property('message')
         .and.to.equal(input.message);
+    });
+  });
+
+  describe('#validateOptions', function() {
+
+    describe('throws an error if options is a(n)', function() {
+
+      helpers.nonObjectTypes.forEach(function(testCase) {
+
+        it('"' + testCase.type + '"', function() {
+          expect(function() {
+            util.validateOptions(testCase.value);
+          }).to.throw(Error, '`options` must be an object');
+        });
+      });
     });
   });
 

@@ -8,34 +8,12 @@ var util = require('../lib/util.js');
 var gulpGrandma = require('../');
 
 describe('[gulp-grandma]', function() {
-  var nonObjectTypes = [{
-    type: 'boolean',
-    value: false
-  }, {
-    type: 'string',
-    value: 'unicorn'
-  }, {
-    type: 'number',
-    value: Math.random()
-  }, {
-    type: 'array',
-    value: ['random', 'value']
-  }, {
-    type: 'null',
-    value: null
-  }, {
-    type: 'function',
-    value: _.noop
-  }, {
-    type: 'Error',
-    value: new Error('test error')
-  }];
 
   function runSharedTests(method, spy) {
 
     describe('throws an error if options is a(n)', function() {
 
-      nonObjectTypes.forEach(function(testCase) {
+      helpers.nonObjectTypes.forEach(function(testCase) {
 
         it('"' + testCase.type + '"', function() {
           expect(function() {
