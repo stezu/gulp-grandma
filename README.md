@@ -24,7 +24,7 @@ npm install --save-dev gulp-grandma
 You can then `require()` gulp-grandma as you normally would:
 
 ```js
-const nodeStream = require('gulp-grandma');
+const grandma = require('gulp-grandma');
 ```
 
 ## API
